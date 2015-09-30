@@ -2,6 +2,14 @@ package com.training;
 
 public class BankAccount {
 
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
 	private double balance = 2000;
 
 	public BankAccount() {
