@@ -2,6 +2,8 @@ package com.training;
 
 public class PrintStrings {
 
+	
+	
 	public synchronized static void printString(String str1, String str2){
 		
 		System.out.println(Thread.currentThread().getId()+ " :Entering");
