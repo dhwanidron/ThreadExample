@@ -2,8 +2,10 @@ package com.training;
 
 public class BankAccount {
 
-	
-	
+	public void display()
+	{
+		System.out.println("Hello world");
+	}
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
